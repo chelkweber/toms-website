@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
     color: #818181;
+	font-size: 20px;
   }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
 
 .jumbotron {
     position: relative;
+    color: #2292A4;
     width: 100%;
     height: 100vh;
     -webkit-background-size: cover;
@@ -36,43 +38,51 @@ h3 {
   }
 
 #header {
-    color: white;
+    color: #0F0A0A;
     text-align: center;
     margin-top: 100px;
     font: "Roboto", sans-serif;
     padding: 100px 25px;
+	text-transform: capitalize;
 }
 
 #about {
-  margin: 0;
-  padding: 20px;
+  	margin: 0;
+  	padding: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#equation {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#about img {
+	width: 30%;
+	height: auto;
+	border: none;
+}
+
+#banner {
+	background-image: url(../img/fish.jpeg);
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 30%;
+	margin-bottom: 5%;
 }
 
 #how-it-works {
   margin: 0;
   padding: 20px;
 }
-.bg-grey {
-      background-color: #f6f6f6;
-  }
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
+
+#contact {
+	font-size: 20px;
+}
 
 #year {
     text-align: right;
